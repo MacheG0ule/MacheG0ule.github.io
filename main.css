@@ -1,0 +1,401 @@
+/*-----------------Page d'accueil-----------------*/
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    color: white;
+}
+
+#main{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    background: url(blue_laser.gif) no-repeat center center fixed;
+    background-size: cover;
+    overflow-y: auto;
+}
+
+#haut{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    margin-top: 0.5%;
+}
+
+.navbar{
+    display:flex;
+    padding:0;
+    margin:0;
+    top:0px;
+    width: 50%;
+    height: 5vh;
+    align-items: center;
+}
+
+li{
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    width: 100px;
+    list-style-type: none;
+}
+
+a{
+    font-family:arial;
+    display:flex;
+    justify-content:center;
+    text-decoration:none;
+    font-weight:bold;
+    color:white
+}
+
+a:hover{
+    color: dodgerblue;
+    transition: color 0.5s ease;
+}
+
+#uha{
+	width: 30px;
+    height: auto;
+    margin-right: 2%;
+}
+
+.ligne{
+    position: fixed;
+    top: 7%;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.centre{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#nom{
+    color: #fff;
+    font-size: 5.3em;
+    letter-spacing: 3px;
+    margin-bottom: -1%;
+}
+  
+#sae{
+    color: #fff;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+/*-----------------Page Présentation-----------------*/
+
+#noir{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 7%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    z-index: -1;
+}
+
+#largeur{
+    width: 65%;
+    margin: auto;
+    margin-top: 3.5%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 50%, rgba(1,96,167,1) 100%);  
+}
+
+
+#menu {
+    position: fixed;
+    top: 7.3%;
+    left: 0;
+    height: 30%; 
+    width: 13%; 
+    background-color: #031740;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;  
+}
+
+.bouton {
+    padding: 2%;
+    background-color: #031740;
+    color: white;
+}
+
+.bouton:hover{
+    color: #176FA6;
+    border: solid 1px;
+    border-color: #176FA6;
+    cursor: pointer;
+    transition:0.5s;
+}
+
+article{
+    font-size: 1.1em;
+}
+
+#presentation{
+    padding-bottom: 6%;
+}
+
+.grandtitre{
+    text-align: center;
+    font-size: 4em;
+    padding-top: 3%;
+}
+
+.groupe1{
+    display: flex;
+}
+
+.bloc1-1{
+    margin-left: 2%;
+    margin-right: 1%;
+    width: 55%;
+}
+
+.bloc2-1{
+    margin-left: 1%;
+    margin-right: 2%;
+    width: 45%;
+}
+
+.titre1{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1.8px;
+    background-color: #031740;
+}
+
+.texte1-1{
+    margin-top: 3.5%;
+    padding: 2%;
+    padding-left: 3%;
+    border-left: 3.5px solid;
+    border-color: rgb(9, 81, 126);
+}
+
+.texte2-1{
+    margin-top: 4%;
+    padding: 2%;
+    display: flex;
+    border-left: 3.5px solid;
+    border-color: #176FA6;
+}
+
+#photoprofile{
+    width: 65%;
+    height: auto;
+    padding-left: 30px;
+}
+
+.info{
+    min-width: 45%;
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+}
+
+.icone{
+    width: 30px;
+    height: 30px;
+    padding-right: 8px;
+}
+
+#numero{
+    color: #5FC2D9;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#numero :hover{
+    color:  #182449;
+}
+
+#gmail{
+    color: #5FC2D9;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#gmail :hover{
+    color: #182449;
+}
+
+#github{
+    color: #5FC2D9;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#github :hover{
+    color:  #182449;
+}
+
+#parcours{
+    padding-top: 0.3%;
+    padding-bottom: 6%;
+}
+
+.groupe2{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc1-2{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.texte1-2{
+    display: flex;
+}
+
+#lyceemermoz{
+    margin-left: 2%;
+    min-width: 25%;
+    height: auto;
+}
+
+.bloc2-2{
+    width: 95%;
+    margin-top: 3%;
+    margin-left: 2.5%;
+}
+
+.texte2-2{
+    display: flex;
+}
+
+#uhacolmar{
+    margin-left: 2%;
+    min-width: 25%;
+    height: auto
+}
+
+.groupe3{
+    display: flex;
+    flex-direction: column;
+}
+
+.bloc1-3{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.titre3{
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1.8px;
+    background-color: #031740;
+}
+
+.texte1-3{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+#cyber{
+    min-width: 40%;
+    height: auto;
+    margin-left: 2%;
+}
+
+.bloc2-3{
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+/*-----------------Page Passions-----------------*/
+
+#base{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 3%;
+}
+
+.ensemble{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.block{
+    background-color: #031740;
+    border: 1px solid;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.5s, width 0.5s, height 0.5s;
+    width: 15%;
+    height: 10%;
+    overflow: hidden;
+}
+
+.block:hover{
+    transform: scale(1.085);
+}
+
+.content{
+    max-height: 0;
+    font-size: 1.03em;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.block:target{
+    width: 30%; 
+    height: 70%; 
+}
+
+.block:target .content{
+    max-height: 1000px; 
+}
+
+.image{
+    width: 80%;
+    padding-left: 10%;
+}
+
+#translate-button{
+    position: fixed;
+    top: 0.5%;
+    right: 7%;
+    padding: 10px;
+    color: #fff;
+    border: 1px solid;
+    cursor: pointer;
+}
+
+#translate-button:hover{
+    color: dodgerblue;
+    transition: color 0.5s ease;
+}
